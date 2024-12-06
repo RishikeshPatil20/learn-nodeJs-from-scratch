@@ -1,0 +1,13 @@
+//rl.question('Question to be asked',callback function)
+
+//transporter is an instance of the email transporter (e.g. Nodemailer).
+
+//mailOptions is an object containing the email settings and content.
+
+//callback is a function that will be called with the result of the send operation.
+
+//transporter.sendMail(mailOptions, (error, info) => {});
+
+//The callback function takes two arguments:
+    1)error: An error object if an error occurred, or null if successful.
+    2)info: An object containing information about the sent email, such as the message ID and response from the email server.
